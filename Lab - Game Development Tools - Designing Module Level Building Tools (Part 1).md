@@ -16,29 +16,29 @@ Unity's implementation of `Scriptable Objects` is a Unity-specific system that u
 The Prototype Patern, builds on Object Oriented Programming (OOP), to create a core class script/object `Prototype` that is capable of being many different flavours, if configured as such.
 
 i.e - Enemy Prototype/Scriptable Object
-Enemy ID - Empty
-Enemy Prefab - Empty
-Enemy AI - Empty
-Enemy HP - Empty
-Enemy DPS - Empty
-Enemy Speed - Empty
+- Enemy ID - Empty
+- Enemy Prefab - Empty
+- Enemy AI - Empty
+- Enemy HP - Empty
+- Enemy DPS - Empty
+- Enemy Speed - Empty
 
 Can be configured to:
-Enemy ID - String `<Patrolling Grunt>`
-Enemy Prefab - Grunt_Basic.prefab
-Enemy AI - Enemy_Patrol.cs
-Enemy HP - 200
-Enemy DPS - 3.2
-Enemy Speed - 1.4
+- Enemy ID - String `<Patrolling Grunt>`
+- Enemy Prefab - Grunt_Basic.prefab
+- Enemy AI - Enemy_Patrol.cs
+- Enemy HP - 200
+- Enemy DPS - 3.2
+- Enemy Speed - 1.4
 
 Which in turn can be reconfigured for an entirely different enemy:
 
-Enemy ID - String `<Upgraded Grunt>`
-Enemy Prefab - Grunt_Upgraded.prefab
-Enemy AI - Enemy_SeekAndDestroy.cs
-Enemy HP - 300
-Enemy DPS - 4.5
-Enemy Speed - 2
+- Enemy ID - String `<Upgraded Grunt>`
+- Enemy Prefab - Grunt_Upgraded.prefab
+- Enemy AI - Enemy_SeekAndDestroy.cs
+- Enemy HP - 300
+- Enemy DPS - 4.5
+- Enemy Speed - 2
 
 This type of programming pattern or `architecture` in our code allows us to build out systems/tools as core ideas, allowing us to re-use them as a template for variants very easily.
 
